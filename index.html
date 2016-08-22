@@ -1,6 +1,8 @@
-<!Doctype html>
-<html>
-	<header>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>		
+		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -9,10 +11,10 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="bootstrap.css" type="text/css">
 		<link rel="stylesheet" href="index.css" type="text/css">
-	</header>
+	</head>
 	
 	<body>
-		<div class="top hidden-xs hidden-sm hidden-md"">				<!--Top section for Menu Buttons-->
+		<div class="top hidden-xs hidden-sm hidden-md">				<!--Top section for Menu Buttons-->
 			<div class="row">						<!--This row allows me to use the col-md-4 on Bootstrap which is best way to space these buttons-->
 				<div class="col-xs-6 col-sm-4 col-md-4" id="col1">
 					<a href="#bework" id="worklink">SCHOOL</a>		<!--WORK button text-->
@@ -20,9 +22,9 @@
 					<a href="#bework" id="icons3">&#xE80C;</a>		<!--WORK button icon-->
 				</div>
 				<div class="col-xs-6 col-sm-4 col-md-4" id="col2">
-					<a href="#beabout" id="aboutlink">ABOUT<a>		<!--ABOUT button text-->
+					<a href="#beabout" id="aboutlink">ABOUT</a>		<!--ABOUT button text-->
 					<hr>
-					<a href="#beabout"id="icons2">&#xE7FD;</a>		<!--ABOUT button icon-->
+					<a href="#beabout" id="icons2">&#xE7FD;</a>		<!--ABOUT button icon-->
 				</div>
 				<div class="col-xs-6 col-sm-4 col-md-4" id="col3">
 					<a href="#bename" id="contlink">CONTACT</a>		<!--CONTACT button text-->
@@ -35,14 +37,14 @@
 		<div class="most">				<!--Div where most of the Website's content resides. Under .top div-->
 			<div id="skillsec">								<!--This little div to the left of .most contains the SKILLS and SCHOOL buttons-->
 				<a href="#beskills" id="skilltext">SKILLS</a>		<!--CONTACT button text-->
-				<hr id="small">
+				<hr class="small">
 				<div id="skillpic">
 					<a href="#beskills" id="skillclick">&#xE86F;</a>		<!--SKILLS button icon-->
 				</div>
 			</div>
 			<div id="schoolsec">
 				<a href="#beschool" id="schooltext">WORK</a>		<!--SCHOOL button text-->
-				<hr id="small">
+				<hr class="small">
 				<div id="schoolicon">
 					<a href="https://github.com/vrchavez" id="schoolclick">&#xE051;</a>		<!--SCHOOL button icon-->
 				</div>
@@ -59,7 +61,7 @@
 				<p id="email">vrchavez05@gmail.com | 909.230.1537</p>
 				<div id="gitimg">
 					<div id="gitimg3">
-						<a href="https://github.com/vrchavez" target="_blank"id="gitimg2"></a>
+						<a href="https://github.com/vrchavez" target="_blank" id="gitimg2"></a>
 					</div>
 				</div>
 				<hr id="beabout">																												<!--Anchor for JQuery to go to ABOUT section-->
@@ -108,12 +110,12 @@
 		<!--Created this script to change the color of the Menu Buttons 
 			 (CONTACT, ABOUT, WORK, etc) based on the position of the 
 			 page (or better yet value of scrollTop)-->
-		<script type='text/javascript' src='js/checkplace.js'></script>
+		<script type='text/javascript' src='checkplace.js'></script>
 
 		<!--Created this script to Smooth Scroll to section based on what 
 			 button was clicked.The scroller() function gets the href of link 
 			 pressed and goes to it-->
-		<script type='text/javascript' src='js/scroller.js'></script>
+		<script type='text/javascript' src='scroller.js'></script>
 		
 		<!--Created this script to Smooth Scroll when the up or down arrow
 			  keys are pressed. In order to go to the right place of the page,
@@ -122,6 +124,6 @@
 		<script type='text/javascript' src='keyer.js'></script>
 		
 		<!--When you hover over a certain link, this changes the color of another-->
-		<script type='text/javascript' src='js/hover.js'></script>
+		<script type='text/javascript' src='hover.js'></script>
 	</body>
 </html>
