@@ -115,7 +115,6 @@ a:hover {
 	color: black;
 	font-size: 40px;
 	outline: none;
-	underline: none;
 	text-decoration: none;
 	transition: .30s;	
 }
@@ -204,7 +203,6 @@ hr {
 	top: 5px;
 	left: -15px;
 	color: black;
-	underline: none;
 	outline: none;
 	text-decoration: none;
 	transition: .30s;
@@ -236,7 +234,7 @@ hr {
 }
 
 /*Styles hr line inside SCHOOL and SKILLS button*/
-#small {
+.small {
 	width: 100%;
 	left: 0;
 	position: relative;
@@ -398,7 +396,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 35px;
 	color: black;
-	font-weight: 0;
+	font-weight: 100;
 	right: 10px;
 }
 
@@ -421,7 +419,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 35px;
 	color: black;
-	font-weight: 0;
+	font-weight: 100;
 }
 
 /*Styles text for location under first SCHOOL listed*/
@@ -460,7 +458,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 35px;
 	color: black;
-	font-weight: 0;
+	font-weight: 100;
 }
 
 /*Styles text under highschool*/
@@ -495,7 +493,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 35px;
 	color: black;
-	font-weight: 0;
+	font-weight: 100;
 }
 
 /*Styles hr line before SCHOOL section (which serves as anchor for JQuery)*/
@@ -857,7 +855,6 @@ hr {
 		color: black;
 		font-size: 40px;
 		outline: none;
-		underline: none;
 		text-decoration: none;
 	}
 
