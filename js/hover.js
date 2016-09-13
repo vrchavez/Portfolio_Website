@@ -10,6 +10,12 @@
 			$(this).css("color", "black");
 		});
 		
+		$("#nounder3").hover(function(){
+			$(this).css("color", "#e9e9e9");
+		}, function(){
+			$(this).css("color", "black");
+		});
+		
 		$("#contlink").hover(function(){
 			$(this).css("color", "#e9e9e9");
 			$("#icons").css("color", "#e9e9e9");
